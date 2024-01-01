@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.content p {
+    color: #E5E7EB;
+}
+
+.content ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.content a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button, 
+.cta {
+    background-color: #3882F6;
+}
+
+button {
+    color: #F9FAF8;
+    border-radius: 10%;
+    border: none;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.cta button {
+    border: 2px solid #F9FAF8;
+}
+
+.content img {
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.info {
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.image-item img {
+    width: 150px; /* Set a specific width for the images */
+    height: 150px; /* Set a specific height for consistency */
+    border: 5px solid #3882F6;
+    border-radius: 15%; 
+}
+
+.image-item {
+    text-align: center;
+    width: 200px;
+}
+
+.image-item p {
+    margin-top: 10px;
+}
+
+.quote blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    padding: 200px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.text-and-button button{
+    margin-bottom: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin-bottom: 100px;
+}
+
+.thor {
+    display: block;
+    text-align: right;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.cta {
+    color: #F9FAF8;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.cta h1,
+p {
+    margin: 0;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px;
+    text-align: center;
+}
+
